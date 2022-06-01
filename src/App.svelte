@@ -2,7 +2,7 @@
 	import Square from './Square.svelte';
 	import { onMount } from 'svelte/internal';
 	export let gridSize = 21;
-	export let TICK_DELAY_MAX = 300;
+	export let TICK_DELAY_MAX =300;
 	
 	let speed = 0;
 	let lost = false;
